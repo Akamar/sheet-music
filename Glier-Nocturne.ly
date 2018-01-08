@@ -1,7 +1,7 @@
 \version "2.18.2"
 \language "english"
 
-{\paper {
+\paper {
   fonts = #
   (make-pango-font-tree
    "PT Serif"
@@ -12,8 +12,8 @@
 
 \header {
   title = "Ноктюрн"
-  composer = "Р . Глиэр"
-  opus = "Соч. 35 № 10"
+  composer = "Р. Глиэр"
+  opus = "Соч. 35 № 10"
   copyright = \markup { \teeny { Engraved by Alex Maryson Jr. } }
 }
 
@@ -28,7 +28,6 @@ contrabass = \relative c {
   \key e \minor
 
   %\transposition d
-  % ÐÐ¿Ð¸ÑÑÐ²Ð°Ð¹ÑÐµ Ð¼ÑÐ·ÑÐºÑ ÑÑÐ´Ð°
   % Page 1
   R1*27/8 |
   d4.\mf\downbow( e~ e4 b8) |
@@ -430,7 +429,6 @@ leftNoVoices = \relative c, {
 
 leftOne = \relative c' {
   \global
-  % ÐÐ¿Ð¸ÑÑÐ²Ð°Ð¹ÑÐµ Ð¼ÑÐ·ÑÐºÑ ÑÑÐ´Ð°
   s8*9*11 |
 
   \set tieWaitForNote = ##t
@@ -454,7 +452,6 @@ leftOne = \relative c' {
 
 leftTwo = \relative c' {
   \global
-  % ÐÐ¿Ð¸ÑÑÐ²Ð°Ð¹ÑÐµ Ð¼ÑÐ·ÑÐºÑ ÑÑÐ´Ð°
   s8*9*11
 
   a,2.~ a8 s4
