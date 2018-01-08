@@ -12,8 +12,8 @@
 
 \header {
   title = "Ноктюрн"
-  composer = "Р. Глиэр"
-  opus = "соч. 35 №10"
+  composer = "Р . Глиэр"
+  opus = "Соч. 35 № 10"
   copyright = \markup { \teeny { Engraved by Alex Maryson Jr. } }
 }
 
@@ -28,7 +28,7 @@ contrabass = \relative c {
   \key e \minor
 
   %\transposition d
-  % Вписывайте музыку сюда
+  % ÐÐ¿Ð¸ÑÑÐ²Ð°Ð¹ÑÐµ Ð¼ÑÐ·ÑÐºÑ ÑÑÐ´Ð°
   % Page 1
   R1*27/8 |
   d4.\mf\downbow( e~ e4 b8) |
@@ -98,7 +98,7 @@ contrabass = \relative c {
   \tuplet 2/3 { d8 g,--) } \tuplet 2/3 { a\<--\! b-- } \tuplet 2/3 { c-- d\!-- } |
 
   % Page 5
-  \tuplet 2/3 { ef_\markup {\italic {piú} \dynamic f}\upbow ef,~( } \tuplet 2/3 { ef c') } \tuplet 2/3 { c( b) } |
+  \tuplet 2/3 { ef_\markup {\italic {piÃº} \dynamic f}\upbow ef,~( } \tuplet 2/3 { ef c') } \tuplet 2/3 { c( b) } |
   bf2.( ef,4.) |
 
   ds as'\dim~( as4 a8) |
@@ -196,7 +196,7 @@ rightNoVoices = \relative c {
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-  <a d>( <f f'>_\markup {\italic {piú} \dynamic f} <a d> <f f'> <a d> <f f'>
+  <a d>( <f f'>_\markup {\italic {piÃº} \dynamic f} <a d> <f f'> <a d> <f f'>
   <a d> <f f'> <a d> <f f'> <a d> <f f'>
   <a d> <f f'> <a d> <f f'> <a d> <f f'>) |
   <af c>( <f f'> <af c> <f f'> <af c> <f f'>)
@@ -231,7 +231,7 @@ rightOne = \relative c' {
   \global
   \key fs \minor
   \tempo "Andante"
-  % Вписывайте музыку сюда
+  % ÐÐ¿Ð¸ÑÑÐ²Ð°Ð¹ÑÐµ Ð¼ÑÐ·ÑÐºÑ ÑÑÐ´Ð°
   s4. <cs e>2.( |
   <fs, ds'>4. <f d'~>2.() |
   d'4. cs <e, bs'>) |
@@ -281,7 +281,7 @@ rightOne = \relative c' {
 
 rightTwo = \relative c'' {
   \global
-  % Вписывайте музыку сюда
+  % ÐÐ¿Ð¸ÑÑÐ²Ð°Ð¹ÑÐµ Ð¼ÑÐ·ÑÐºÑ ÑÑÐ´Ð°
   s4. gs, a^~ |
   a2. b4.( |
   <f gs~>2.) \stemUp gs4. |
@@ -329,7 +329,7 @@ rightTwo = \relative c'' {
 leftNoVoices = \relative c, {
   \global
   \key fs \minor
-  % Вписывайте музыку сюда
+  % ÐÐ¿Ð¸ÑÑÐ²Ð°Ð¹ÑÐµ Ð¼ÑÐ·ÑÐºÑ ÑÑÐ´Ð°
   <a a'>2.~ <a a'>4.~ |
   <a a'>2.~ <a a'>4. |
   <a a'>2.~ <a a'>4. |
@@ -430,7 +430,7 @@ leftNoVoices = \relative c, {
 
 leftOne = \relative c' {
   \global
-  % Вписывайте музыку сюда
+  % ÐÐ¿Ð¸ÑÑÐ²Ð°Ð¹ÑÐµ Ð¼ÑÐ·ÑÐºÑ ÑÑÐ´Ð°
   s8*9*11 |
 
   \set tieWaitForNote = ##t
@@ -454,7 +454,7 @@ leftOne = \relative c' {
 
 leftTwo = \relative c' {
   \global
-  % Вписывайте музыку сюда
+  % ÐÐ¿Ð¸ÑÑÐ²Ð°Ð¹ÑÐµ Ð¼ÑÐ·ÑÐºÑ ÑÑÐ´Ð°
   s8*9*11
 
   a,2.~ a8 s4
